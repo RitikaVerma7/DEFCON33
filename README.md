@@ -11,7 +11,7 @@ The workshop focuses on building **two real-world, lightweight AI-powered securi
 ## 📂 Labs Overview
 
 ### **Lab 1 — PII/PCI Redaction using spaCy + DSPy**
-- Detect Personally Identifiable Information (PII) and Payment Card Information (PCI) in text.
+- Detect Personally Identifiable Information (PII) in text.
 - Automatically redact sensitive data before passing it to an LLM.
 - Compare **NER-based detection (spaCy)** vs **structured prompting (DSPy)**.
 
