@@ -1,0 +1,12 @@
+# Lab 1 Requirements
+pandas==2.2.2
+spacy==3.8.7
+dspy==2.6.27
+dspy-ai==2.6.27
+sklearn-pandas==2.2.0
+geopandas==1.0.1
+pandas-datareader==0.10.0
+pandas-gbq==0.29.1
+pandas-stubs==2.2.2.240909
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
