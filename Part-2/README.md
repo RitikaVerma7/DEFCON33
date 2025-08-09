@@ -42,14 +42,14 @@ Each lab has a dedicated environment file.
 cd lab1_pii_redaction
 pip install -r requirements.txt
 ```  
-[![Open Lab 1 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RitikaVerma7/DEFCON33/blob/main/part-2/lab1_pii_redaction/Lab_1_Prompt_Engineering.ipynb)
+[![Open Lab 1 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RitikaVerma7/DEFCON33/blob/main/Part-2/lab1_pii_redaction/Lab_1_Prompt_Engineering.ipynb)
 
 **Lab 2 — Email Classifier (Using LangGraph)**  
 ```bash
 cd ../lab2_email_classifier
 pip install -r requirements.txt
 ```  
-[![Open Lab 2 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RitikaVerma7/DEFCON33/blob/main/part-2/lab2_email_classifier/Lab_2_Email_Classifier_Using_Langraph.ipynb)
+[![Open Lab 2 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RitikaVerma7/DEFCON33/blob/main/Part-2/lab2_email_classifier/Lab_2_Email_Classifier_Using_Langraph.ipynb)
 
 >  You can also run these labs directly in **Google Colab**—just click the appropriate badge above.
 
