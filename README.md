@@ -34,36 +34,37 @@ The workshop focuses on building **two real-world, lightweight AI-powered securi
 
 ## 🛠️ Setup Instructions
 
-### 2️⃣ Install Dependencies
-Each lab has its own environment file.
+### ​​​ Install Dependencies
+Each lab has a dedicated environment file.
 
-**Lab 1 — PII/PCI Redaction**
+**Lab 1 — Prompt Engineering (PII/PCI Redaction)**  
 ```bash
 cd lab1_pii_redaction
 pip install -r requirements.txt
-```
-[![Open Lab 1 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/RitikaVerma7/DEFCON33/blob/main/lab1_pii_redaction/Lab_1_Prompt_Engineering.ipynb)
+```  
+[![Open Lab 1 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RitikaVerma7/DEFCON33/blob/main/lab1_pii_redaction/Lab_1_Prompt_Engineering.ipynb)
 
-**Lab 2 — Email Classifier**
+**Lab 2 — Email Classifier (Using LangGraph)**  
 ```bash
 cd ../lab2_email_classifier
 pip install -r requirements.txt
-```
+```  
 [![Open Lab 2 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RitikaVerma7/DEFCON33/blob/main/lab2_email_classifier/Lab_2_Email_Classifier_Using_Langraph.ipynb)
 
-> 💡 You can also run these labs in **Google Colab** without local installation. Just click the badge above for your chosen lab.
+>  You can also run these labs directly in **Google Colab**—just click the appropriate badge above.
 
 ---
 
-### 3️⃣ Get API Keys (if applicable)
+### ​​​ Get API Keys (if applicable)
 Some labs require API keys for full functionality.
 
-| Service      | Purpose                     | Link to Get Key |
-|--------------|-----------------------------|-----------------|
-| OpenAI       | LLM-powered tasks           | [Get API Key](https://platform.openai.com/account/api-keys) |
-| VirusTotal   | URL/domain reputation check | [Get API Key](https://www.virustotal.com/gui/join-us) |
+| Service     | Purpose                     | Get a Key from               |
+|-------------|-----------------------------|-------------------------------|
+| OpenAI      | LLM-powered tasks           | [OpenAI Account](https://platform.openai.com/account/api-keys) |
+| VirusTotal  | URL/domain reputation check | [VirusTotal](https://www.virustotal.com/gui/join-us)         |
 
-Store your keys in a `.env` file in the lab’s root folder:
+Store them in a `.env` file in the lab directory:
+
 ```env
 OPENAI_API_KEY=your_openai_key_here
 VT_API_KEY=your_virustotal_key_here
@@ -71,8 +72,7 @@ VT_API_KEY=your_virustotal_key_here
 
 ---
 
-### 4️⃣ Run the Notebook
-- **Jupyter**: Launch with `jupyter notebook`
-- **VSCode**: Open and run cells directly
-- **Colab**: Click the badge above and run in the browser
-
+### ​​​ Run the Notebook
+- **Jupyter**: Run `jupyter notebook` in the lab directory
+- **VSCode**: Open the `.ipynb` and run cells
+- **Colab**: Simply click the badge and go—no setup needed
