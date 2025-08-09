@@ -15,7 +15,7 @@ The workshop focuses on building **two real-world, lightweight AI-powered securi
 - Automatically redact sensitive data before passing it to an LLM.
 - Compare **NER-based detection (spaCy)** vs **structured prompting (DSPy)**.
 
-➡️ [Lab 1 Notebook](lab1_pii_redaction/Lab1_PII_Redaction.ipynb)
+➡️ [Lab 1 Notebook](lab1_pii_redaction/Lab_1_Prompt_Engineering.ipynb)
 
 ---
 
@@ -28,7 +28,7 @@ The workshop focuses on building **two real-world, lightweight AI-powered securi
   4. Decision Coordinator
 - Integrates external APIs like VirusTotal.
 
-➡️ [Lab 2 Notebook](lab2_email_classifier/Lab2_Email_Classifier.ipynb)
+➡️ [Lab 2 Notebook](lab2_email_classifier/Lab_2_Email_Classifier_Using_Langraph.ipynb)
 
 ---
 
@@ -42,14 +42,14 @@ Each lab has its own environment file.
 cd lab1_pii_redaction
 pip install -r requirements.txt
 ```
-[![Open Lab 1 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-username>/<your-repo>/blob/main/lab1_pii_redaction/Lab1_PII_Redaction.ipynb)
+[![Open Lab 1 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-username>/<your-repo>/blob/main/lab1_pii_redaction/Lab_1_Prompt_Engineering.ipynb)
 
 **Lab 2 — Email Classifier**
 ```bash
 cd ../lab2_email_classifier
 pip install -r requirements.txt
 ```
-[![Open Lab 2 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-username>/<your-repo>/blob/main/lab2_email_classifier/Lab2_Email_Classifier.ipynb)
+[![Open Lab 2 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-username>/<your-repo>/blob/main/lab2_email_classifier/Lab_2_Email_Classifier_Using_Langraph.ipynb)
 
 > 💡 You can also run these labs in **Google Colab** without local installation. Just click the badge above for your chosen lab.
 
