@@ -14,7 +14,6 @@ The focus is on **crafting effective prompts** and integrating them with targete
 | File | Description |
 |------|-------------|
 | `Lab_1_Prompt_Engineering.ipynb` | Main notebook for the lab |
-| `sample_inputs.txt` | Example text for testing (logs, code, PII) |
 
 ---
 

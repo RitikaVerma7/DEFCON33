@@ -15,7 +15,6 @@ We explore how to:
 | File | Description |
 |------|-------------|
 | `Lab_2_Email_Classifier_Using_Langraph.ipynb` | Main notebook for the lab |
-| `sample_emails.json` | Test email dataset (phishing + benign cases) |
 
 ---
 
